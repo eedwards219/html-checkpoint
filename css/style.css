@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.columns-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.column-one {
+  flex: 1;
+  padding: 10px;
+  margin: 100px;
+  margin-left: 500px;
+}
+.column-two {
+  flex: 1;
+  padding: 10px;
+  margin: 100px;
+  margin-right: 500px;
+}
+/* .column-three {
+  flex: 1;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+} */
+ul {
+  border-style: solid;
+  border-width: 1px;
+  list-style: none;
+}
+.center-text{
+  display: inline;
+  border-style: solid;
+  border-width: 1px;
+}
+/* .additonal{
+  display: inline-block;
+} */
